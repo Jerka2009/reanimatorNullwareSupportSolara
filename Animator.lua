@@ -3,8 +3,8 @@ local TweenService = game:GetService("TweenService")
 local Parser = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jerka2009/reanimatorNullwareSupportSolara/main/Parser.lua"))()
 local Utility = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jerka2009/reanimatorNullwareSupportSolara/main/Utility.lua"))()
 
-local Signal = animatorRequire("Nevermore/Signal.lua")
-local Maid = animatorRequire("Nevermore/Maid.lua")
+local Signal = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jerka2009/reanimatorNullwareSupportSolara/main/Nevermore/Signal.lua"))()
+local Maid = loadstring(game:HttpGet("https://raw.githubusercontent.com/Jerka2009/reanimatorNullwareSupportSolara/main/Nevermore/Maid.lua"))()
 
 function merge(t1, t2)
 	for k, v in pairs(t2) do
